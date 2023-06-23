@@ -1,0 +1,42 @@
+1- git init
+
+2- 
+git add.
+
+3- git add nomePasta/
+(add uma pasta somente)
+
+4- git add nomeArquivo.txt
+(add um arquivo específico mas tem que estar no diretório da pasta em questão e add a extensão dele)
+
+5- git status
+
+6- git commit -m "msg"
+
+7- git push origin nome branch
+7.1- git push -u origin master (liga o repo a branch local) 
+
+8- git branch
+(mostra todas as branches criadas)
+
+9- git checkout -b "nova branch " 
+(sai da branch atual e vai para a q está sendo criada)
+
+10- git checkout "nome branch existente"
+(sai da branch atual e vai pra qual vc quer- faça isso na pasta local onde está a branch usada)
+
+11- git branch -D "nomebranchusada"
+(deletará a branch usada do repo local)
+
+12- git pull 
+(tras do repo remoto pro local)
+
+13- git commit -a 
+(coloca absolutamente todos os arquivos pra serem enviados via push)
+
+14- git pull origin main 
+(atualiza a main local usando o repo remoto)
+
+
+
+15- git remote add origin https://github.com/Tiago1Figueira(seta o repositorio remoto para onde os arquivos serão vinculados) 
